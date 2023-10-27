@@ -1,0 +1,1434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+/*page 1*/
+@media only screen and (min-width:320px) and (max-width:768px) {
+
+    body {
+        background-image: url(./IceCream1/fondo_pagina\ helado.jpg);
+    }
+
+    header {
+        background-color: rgb(176, 231, 209);
+        margin: 10px;
+        height: 70vw;
+
+
+    }
+
+    .tituloh1 {
+        font-size: 5vw;
+        margin-left: 5vw;
+        text-align: center;
+        color: cornflowerblue;
+        text-decoration: none;
+    }
+
+
+
+
+    .logo {
+        display: flex;
+        justify-content: flex-end;
+        height: 18vw;
+        width: 18vw;
+        top: -10vh;
+    }
+
+    .nav {
+        height: 70vw;
+        width: 95vw;
+        color: brown;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .ancor1 {
+        width: 80vw;
+        height: 6vw;
+        font-size: 3vw;
+        text-align: center;
+        margin: 3px;
+        padding: 5px;
+        background-color: pink;
+        color: black;
+        border: 2px solid palevioletred;
+        text-decoration: none;
+
+
+    }
+
+    .ancor1:hover {
+        background-color: yellow;
+        border: 2PX solid green;
+        border-bottom-right-radius: 5px;
+        transition: 0, 5s;
+        color: yellowgreen;
+
+    }
+
+    .contenedorpagina2 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .banner {
+
+        height: 60vh;
+        width: 80vw;
+        left: 10vw;
+        display: block;
+        border: 2px solid palevioletred;
+
+    }
+
+    .banner:hover {
+        border: 2PX solid green;
+        border-bottom-right-radius: 5px;
+        transition: 0, 5s;
+        color: yellowgreen;
+    }
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+
+
+    }
+
+    .Parrafopage1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50vw;
+        color: brown;
+        text-align: center;
+        border: 2px solid rgb(165, 26, 79);
+
+    }
+
+
+
+
+    .section2 {
+        margin: 5px;
+        border: 2px solid rgb(165, 26, 79);
+        width: 50vw;
+        height: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: blueviolet;
+    }
+
+    footer {
+
+        background-color: rgb(176, 231, 209);
+        height: 80px;
+        color: brown;
+        margin: 10px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+    }
+
+
+    /*pagina 2*/
+    .contenedorpagina2 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .imagenes2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+
+
+
+
+    }
+
+    .pancake {
+
+        border-bottom: 1px solid black;
+        width: 35vw;
+        height: 35vw;
+
+
+
+    }
+
+    .redcream {
+        border-bottom: 1px solid black;
+        width: 35vw;
+        height: 35vw;
+        margin: 10vh;
+
+    }
+
+    .strawberry {
+
+        border-bottom: 1px solid black;
+        width: 35vw;
+        height: 35vw;
+        margin: 10vh;
+    }
+
+    .parrafo1 {
+        height: 25vw;
+        width: 80vw;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3vw;
+        color: rgb(206, 5, 72);
+
+
+    }
+
+    .parrafo2 {
+        padding: 2%;
+        height: 25vw;
+        width: 80vw;
+        text-align: justify;
+        left: 35vw;
+        text-align: center;
+        bottom: 90vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        color: rgb(206, 5, 72);
+        padding: 2px;
+    }
+
+
+
+    .parrafo3 {
+        padding: 2%;
+        height: 25vw;
+        width: 80vw;
+        text-align: justify;
+        left: 35vw;
+        text-align: center;
+        bottom: 90vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        color: rgb(206, 5, 72);
+        padding: 2px;
+
+
+    }
+
+    */
+
+    /*
+pagina 3
+*/
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100vw;
+
+    }
+
+
+    .fotoultimahoja {
+
+        width: 50vw;
+        height: 30vw;
+        left: 25vw;
+        margin: 10px;
+        border: 2px solid palevioletred;
+
+
+    }
+
+    .parrafofinal {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: brown;
+        margin: 10vh;
+        padding: 5vh;
+        font-size: 2vw;
+
+    }
+
+    .correotelefono {
+
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    img {
+        padding: 2px;
+        height: 4vw;
+        width: 4vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .contact1 {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    .contact2 {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    /*
+
+Flexbox
+
+Flexbox
+pagina information
+*/
+
+    .tituloh1 {
+        color: blueviolet;
+    }
+
+    .tituloTB {
+        font-size: 3vw;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin-bottom: 15vh;
+    }
+
+
+    table,
+    th,
+    td {
+        background-color: rgb(244, 175, 147);
+        border: 2px solid brown;
+        padding: 4px;
+        margin: 5px;
+        align-self: center;
+        border-collapse: collapse;
+        height: 10vh;
+        width: 70vw;
+        justify-content: center;
+        color: black;
+
+
+
+    }
+
+    h2 {
+        text-align: center;
+        color: blueviolet;
+        font-size: 30px;
+    }
+
+    .main4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+
+    }
+
+
+
+    .one {
+
+        list-style-type: none;
+        height: 10vh;
+        width: 30vw;
+        font-size: 20px;
+
+    }
+
+    .Benefits {
+        list-style: circle;
+        align-items: center;
+        width: 60vw;
+
+    }
+
+    .benefits1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid palevioletred;
+        margin: 10vh;
+        padding: 5vh;
+
+
+    }
+
+    .benefits1-img {
+        width: 250px;
+        height: 250px;
+        margin: 5px;
+        border: 2px solid palevioletred;
+        padding: 2vh;
+
+
+
+    }
+
+    .tip1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid palevioletred;
+        margin: 10vh;
+        padding: 5vh;
+    }
+
+
+
+
+    .star1 {
+        color: gold;
+
+    }
+
+    .estrellas {
+        font-size: 6vh;
+        display: flex;
+
+
+
+    }
+
+    /*Raffle*/
+
+    .sectionformularios {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        border: 2px solid palevioletred;
+        background-color: antiquewhite;
+        width: 60vw;
+    }
+
+    /*
+    .sectionformularios {
+      
+        background-color: antiquewhite;
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        width: 95vw;
+         
+        margin: 3px;
+       
+       
+
+    }*/
+
+    .Sugerenciacomentarios {
+
+        margin: 5px;
+
+    }
+
+    iframe {
+
+        width: 50vw;
+        height: 50vw;
+        margin: 5vh;
+        padding: 2px;
+
+    }
+
+    .botonenviar {
+
+        border-color: palevioletred;
+        background-color: palevioletred;
+        margin: 5vw;
+
+    }
+
+    .botonenviar :hover {
+        transition: 2s;
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1023px) {
+    body {
+        background-image: url(./IceCream1/fondo_pagina\ helado.jpg);
+    }
+
+    header {
+        background-color: rgb(176, 231, 209);
+        margin: 5px;
+        width: 100vw;
+    }
+
+    .tituloh1 {
+        font-size: 5vw;
+        margin-left: 5vw;
+        text-align: center;
+        color: cornflowerblue;
+        text-decoration: none;
+    }
+
+
+
+
+    .logo {
+        display: flex;
+        height: 18vw;
+        width: 18vw;
+        top: -10vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        height: 70vw;
+        width: 95vw;
+        color: brown;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .ancor1 {
+        width: 80vw;
+        height: 6vw;
+        font-size: 3vw;
+        text-align: center;
+        margin: 3px;
+        padding: 5px;
+        background-color: pink;
+        color: black;
+        border: 2px solid palevioletred;
+        text-decoration: none;
+
+
+    }
+
+    .ancor1:hover {
+        background-color: yellow;
+        border: 2PX solid green;
+        border-bottom-right-radius: 5px;
+        transition: 0, 5s;
+        color: yellowgreen;
+
+    }
+
+    .contenedorpagina2 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100vw;
+
+    }
+
+
+
+    .banner:hover {
+        border: 2PX solid green;
+        border-bottom-right-radius: 5px;
+        transition: 0, 5s;
+        color: yellowgreen;
+    }
+
+
+    main {
+
+        border: 2PX solid green;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .Parrafopage1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50vw;
+        color: brown;
+        text-align: center;
+        border: 2px solid rgb(165, 26, 79);
+
+    }
+
+
+
+
+    .section2 {
+        margin: 5px;
+        border: 2px solid rgb(165, 26, 79);
+        width: 50vw;
+        height: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: blueviolet;
+    }
+
+    footer {
+
+        background-color: rgb(176, 231, 209);
+        height: 80px;
+        color: brown;
+        margin: 10px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+    }
+
+
+    /*pagina 2*/
+    .contenedorpagina2 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .imagenes2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+
+
+
+
+    }
+
+    .pancake {
+
+        border-bottom: 1px solid black;
+        width: 35vw;
+        height: 35vw;
+
+
+
+    }
+
+    .redcream {
+        border-bottom: 1px solid black;
+        width: 35vw;
+        height: 35vw;
+        margin: 10vh;
+
+    }
+
+    .strawberry {
+
+        border-bottom: 1px solid black;
+        width: 35vw;
+        height: 35vw;
+        margin: 10vh;
+    }
+
+    .parrafo1 {
+        height: 25vw;
+        width: 80vw;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3vw;
+        color: rgb(206, 5, 72);
+
+
+    }
+
+    .parrafo2 {
+        padding: 2%;
+        height: 25vw;
+        width: 80vw;
+        text-align: justify;
+        left: 35vw;
+        text-align: center;
+        bottom: 90vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        color: rgb(206, 5, 72);
+        padding: 2px;
+    }
+
+
+
+    .parrafo3 {
+        padding: 2%;
+        height: 25vw;
+        width: 80vw;
+        text-align: justify;
+        left: 35vw;
+        text-align: center;
+        bottom: 90vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        color: rgb(206, 5, 72);
+        padding: 2px;
+
+
+    }
+
+    */
+
+    /*
+pagina 3
+*/
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100vw;
+
+    }
+
+
+    .fotoultimahoja {
+
+        width: 50vw;
+        height: 30vw;
+        left: 25vw;
+        margin: 10px;
+        border: 2px solid palevioletred;
+
+
+    }
+
+    .parrafofinal {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: brown;
+        margin: 10vh;
+        padding: 5vh;
+        font-size: 2vw;
+
+    }
+
+    .correotelefono {
+
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    img {
+        padding: 2px;
+        height: 4vw;
+        width: 4vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .contact1 {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    .contact2 {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    /*
+
+Flexbox
+
+Flexbox
+pagina information
+*/
+
+    .tituloh1 {
+        color: blueviolet;
+    }
+
+    .tituloTB {
+        font-size: 3vw;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin-bottom: 15vh;
+    }
+
+
+    table,
+    th,
+    td {
+        background-color: rgb(244, 175, 147);
+        border: 2px solid brown;
+        padding: 4px;
+        margin: 5px;
+        align-self: center;
+        border-collapse: collapse;
+        height: 10vh;
+        width: 70vw;
+        justify-content: center;
+        color: black;
+
+
+
+    }
+
+    h2 {
+        text-align: center;
+        color: blueviolet;
+        font-size: 30px;
+    }
+
+    .main4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+
+    }
+
+
+
+    .one {
+
+        list-style-type: none;
+        height: 10vh;
+        width: 30vw;
+        font-size: 20px;
+
+    }
+
+    .Benefits {
+        list-style: circle;
+        align-items: center;
+        width: 60vw;
+
+    }
+
+    .benefits1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid palevioletred;
+        margin: 10vh;
+        padding: 5vh;
+
+
+    }
+
+    .benefits1-img {
+        width: 250px;
+        height: 250px;
+        margin: 5px;
+        border: 2px solid palevioletred;
+        padding: 2vh;
+
+
+
+    }
+
+    .tip1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid palevioletred;
+        margin: 10vh;
+        padding: 5vh;
+    }
+
+
+
+
+    .star1 {
+        color: gold;
+
+    }
+
+    .estrellas {
+        font-size: 6vh;
+        display: flex;
+
+
+
+    }
+
+    /*Raffle*/
+
+    .sectionformularios {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        border: 2px solid palevioletred;
+        background-color: antiquewhite;
+        width: 60vw;
+    }
+
+ 
+
+    .Sugerenciacomentarios {
+
+        margin: 5px;
+
+    }
+
+    iframe {
+
+        width: 50vw;
+        height: 50vw;
+        margin: 5vh;
+        padding: 2px;
+
+    }
+
+    .botonenviar {
+
+        border-color: palevioletred;
+        background-color: palevioletred;
+        margin: 5vw;
+
+    }
+
+    .botonenviar :hover {
+        transition: 2s;
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+
+    body {
+        background-image: url(./IceCream1/fondo_pagina\ helado.jpg);
+    }
+
+    .cabezaancorlogo {
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        width: 100vw;
+        padding: 5px;
+        height: 25vh;
+        background-color: rgb(176, 231, 209);
+    }
+
+    .logo {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .ancor1 {
+
+        font-size: 1vw;
+        margin: 3px;
+        border: 1px solid brown;
+        padding: 5px;
+        background-color: pink;
+        color: black;
+        border: 2px solid palevioletred;
+        text-decoration: none;
+
+
+    }
+
+    .ancor1:hover {
+        background-color: yellow;
+        border: 2PX solid green;
+        border-bottom-right-radius: 5px;
+        transition: 0, 5s;
+        color: yellowgreen;
+
+    }
+
+
+    .tituloh1 {
+        font-size: 2vw;
+        height: 10vh;
+        width: 86vw;      
+        text-align: center;
+        color: cornflowerblue;
+        text-decoration: none;
+
+
+    }
+
+    .contenedorBanner {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .banner {
+
+        height: 60vh;
+        width: 80vw;
+    }
+
+    .banner:hover {
+        border: 2PX solid green;
+        border-bottom-right-radius: 5px;
+        transition: 0, 5s;
+        color: yellowgreen;
+    }
+
+
+
+    .Parrafopage1 {
+
+        color: brown;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .contenedorft {
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .section2 {
+
+        border: 2px solid black;
+        width: 40vw;
+        height: 40vw;
+        left: 30%;
+        bottom: 30vh;
+    }
+
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: blueviolet;
+    }
+
+    footer {
+        background-color: rgb(176, 231, 209);
+        height: 80px;
+        color: brown;
+        margin: 10px;
+        font-size: 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+    }
+
+
+    /*pagina 2*/
+
+
+    .Contenidopagina2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 10vh;
+    }
+
+    .ancor1 {
+
+        font-size: 1vw;
+        margin: 3px;
+        border: 1px solid brown;
+        padding: 5px;
+        background-color: pink;
+        color: black;
+        border: 2px solid palevioletred;
+        text-decoration: none;
+
+
+    }
+
+    .pancake {
+
+        border-bottom: 1px solid pink;
+        width: 25vw;
+        height: 25vw;
+        left: 5vw;
+        top: 28vh;
+        margin: 10vh;
+    }
+
+    .redcream {
+
+        border-bottom: 1px solid pink;
+        width: 25vw;
+        height: 25vw;
+        left: 5vw;
+        top: 28vh;
+        margin: 10vh;
+
+    }
+
+    .strawberry {
+
+        border-bottom: 1px solid pink;
+        width: 25vw;
+        height: 25vw;
+        left: 5vw;
+        top: 28vh;
+        margin: 10vh;
+    }
+
+    .parrafo1 {
+
+        padding: 2%;
+        height: 25vh;
+        width: 50vw;
+        left: 35vw;
+        text-align: center;
+        bottom: 90vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5vw;
+        color: rgb(206, 5, 72);
+        padding: 2px;
+
+    }
+
+    .parrafo2 {
+        padding: 2%;
+        height: 25vh;
+        width: 50vw;
+        left: 35vw;
+        text-align: center;
+        bottom: 65vh;
+        font-family: sans-serif;
+        font-size: 1.5vw;
+        color: rgb(206, 5, 72);
+        padding: 2px;
+    }
+
+
+
+    .parrafo3 {
+        padding: 2%;
+        height: 25vh;
+        width: 50vw;
+        left: 35vw;
+        text-align: center;
+        bottom: 50vh;
+        font-family: sans-serif;
+        font-size: 1.5vw;
+        color: rgb(206, 5, 72);
+        padding: 2px;
+
+
+    }
+
+    /*
+pagina 3
+*/
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+}
+    .fotoultimahoja {
+
+        width: 50vw;
+        height: 40vh;
+        left: 25vw;
+        top: 5vh;       
+        border: 2px solid palevioletred;
+
+
+    }
+
+    .parrafofinal {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: brown;
+        margin: 10vh;
+        padding: 5vh;
+        font-size: 2vw;
+        text-align: center;
+
+    }
+
+    .correotelefono {
+
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    img {
+        padding: 2px;
+        height: 2vw;
+        width: 2vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .contact1 {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    .contact2 {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+
+    }
+
+    /*
+
+Flexbox
+
+Flexbox
+pagina information
+*/
+
+    .tituloh1 {
+        color: blueviolet;
+    }
+
+    .tituloTB {
+        font-size: 3vw;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin-bottom: 15vh;
+    }
+
+
+    table,
+    th,
+    td {
+        background-color: rgb(244, 175, 147);
+        border: 2px solid brown;
+        padding: 4px;
+        margin: 5px;
+        align-self: center;
+        border-collapse: collapse;
+        height: 10vh;
+        width: 70vw;
+        justify-content: center;
+        color: black;
+
+
+
+    }
+
+    h2 {
+        text-align: center;
+        color: blueviolet;
+        font-size: 30px;
+    }
+
+    .main4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+
+    }
+
+
+
+    .one {
+
+        list-style-type: none;
+        height: 10vh;
+        width: 30vw;
+        font-size: 20px;
+
+    }
+
+    /*Benefits*/
+    .Benefits {
+        list-style: circle;
+        align-items: center;
+        width: 60vw;
+
+    }
+
+    .benefits1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid palevioletred;
+        margin: 10vh;
+        padding: 5vh;
+
+
+    }
+
+    .benefits1-img {
+        width: 250px;
+        height: 250px;
+        margin: 5px;
+        border: 2px solid palevioletred;
+        padding: 2vh;
+
+
+
+    }
+
+    .tip1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid palevioletred;
+        margin: 10vh;
+        padding: 5vh;
+    }
+
+
+
+
+    .star1 {
+        color: gold;
+
+    }
+
+    .estrellas {
+        font-size: 6vh;
+        display: flex;
+
+
+
+    }
+
+    /*Raffle*/
+
+
+    .sectionformularios {
+        position: relative;
+        background-color: antiquewhite;
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        width: 98vw;
+        justify-content: space-around;
+        width: 80vw;
+        margin: 10vw;
+
+    }
+
+    .Sugerenciacomentarios {
+
+        width: 30vw;
+        margin: 5px;
+
+    }
+
+    iframe {
+        position: relative;
+        width: 50vw;
+        height: 50vw;
+        margin: 5vh;
+        padding: 2px;
+
+    }
+
+    .botonenviar {
+
+        border-color: palevioletred;
+        background-color: palevioletred;
+        margin: 5vw;
+
+    }
+
+    .botonenviar :hover {
+        transition: 2s;
+        background-color: green;
+    }
+}
